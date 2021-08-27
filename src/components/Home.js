@@ -4,9 +4,12 @@ import { name, city } from "../data/data.js";
 
 function Home() {
   // update the JSX being returned!
-  const element = <div id = "home">`${name} is a Web Developer from ${city}`</div>;
-  ReactDOM.render(element,  <Home />)
+  return (
+  <div id = "home">
+    <h1 style={{color: "firebrick"}}> {`${name} is a Web Developer from ${city}`}</h1>
+  </div>
 
+  )
 
 
 

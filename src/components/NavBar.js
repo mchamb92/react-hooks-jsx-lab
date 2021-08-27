@@ -5,8 +5,8 @@ function NavBar() {
  // return <nav>NavBar</nav>;
  return (
   <nav>
-    <a href = "#home"> </a>
-    <a href = "#about"> </a>
+    <a href = "#home"> Home </a>
+    <a href = "#about"> About </a>
   </nav>
 );
 
